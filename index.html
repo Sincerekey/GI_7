@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock/Paper/Scissors</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c3792c3a55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <main>
+    <section id="heading">
+        <h3 id="head">Click Any Button To Start</h3>
+        <h6 id="headend" ><span class="dot">...</span>↓<span class="dot">.......</span>↓<span class="dot">......</span>↓<span class="dot">.....</span></h6>
+    </section>
+
+    <section id="userButton">
+       <button id="rock" onclick="rock()"> <a class="z-depth-4 btn-floating btn-large waves-effect waves-light  deep-purple darken-3"><i class="fa-solid fa-hand-back-fist"></i></a></button>
+        <button id="scissors"><a class="z-depth-4 btn-floating btn-large waves-effect waves-light cyan accent-3"><i class="fa-solid fa-hand-scissors"></i></a></i></button>
+        <button id="paper"><a class="z-depth-4 btn-floating btn-large waves-effect waves-light orange darken-1"><i class="fa-solid fa-hand"></i></a></button>
+    </section>
+
+    <section id="displayAnswer">
+        <h1 id="dAns"> </h1>
+    </section>
+
+    <section id="Versus">
+        <h6 id="vs"> V.S </h6>
+    </section>
+
+    <section id="homeAnswer">
+        <h1 id="hAns"> </h1>
+    </section>
+    
+    
+    
+    <section class="outcome">
+        <h3 id="result">Winner</h3>
+    </section>
+
+
+
+    
+
+
+
+    <section id="scoreBoard">
+        <table id='score'>
+            <tr>
+                <th><h4 id="uName"> </h4></th>
+                <th><h4>Opponent</h4></th>
+                <th><h4>Ties</h4></th>
+            </tr>
+            <tr></tr>
+            <td><h5 id="uScore">0</h5></td>
+            <td><h5 id="cScore">0</h5></td>
+            <td><h5 id="ties">0</h5></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Res">
+    <button id="reset"><a class="z-depth-4 btn-floating btn-large waves-effect waves-light red accent-4"><i class="fa-solid fa-trash"></i></a></button>
+    </section>
+   </main>
+    
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

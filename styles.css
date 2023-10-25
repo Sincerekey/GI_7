@@ -1,0 +1,120 @@
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+html{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(background.png);
+    background-size: cover;
+}
+body{
+    width: 50%;
+    border: solid;
+}
+#rock{
+    rotate: 180deg;
+    background: none;
+    border: 0;
+}
+
+#paper{
+    rotate: 180deg;
+    background: none;
+    border: 0;
+}
+
+#scissors{
+    rotate: 270deg;
+    background: none;
+    border: 0;
+}
+#displayAnswer{
+    rotate: 180deg;
+    background-color: #74d284;
+
+}
+#userButton, #homeAnswer, #displayAnswer, #Versus{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Versus{
+    padding: 0;
+    background-color: #74d284;
+
+
+}
+#userButton{
+    background-color: #74d284;
+}
+#homeAnswer{
+    background-color: #74d284;
+    border-bottom: solid thick;
+
+}
+#uScore{
+    border: 20px, dashed, black;
+}
+
+.outcome{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color: #3d7d37;
+
+}
+
+#Res{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d7d37;
+}
+#score{
+    background-color: #3d7d37;
+}
+#reset{
+    background: none;
+    border: 0;
+    text-align: center;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #74d284;
+
+}
+
+.dot{
+    color: #74d284;
+}
+
+#scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d7d37;
+ }
+
+ button:hover:active {
+    color: red;
+ }
+
+tr{
+    border: solid;
+ }
+
+ table{
+    display: flex;
+    justify-content: center;
+ }
